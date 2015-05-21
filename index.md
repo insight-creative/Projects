@@ -34,4 +34,4 @@ title: woopidy doo
 
 ##Media Project Title
 
-Description of project here
+Description of project here.
