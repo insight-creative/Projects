@@ -3,7 +3,7 @@
           <div class="container navbar-container">
             <div class="navbar-header">
 
-              <a class="navbar-brand" href="/"><img class="img-circle {% if page.title contains "Advertising Agency" %}pop animation{% endif %}"src="/img/insight-creative-logo.gif" alt="Insight Creative"></a>
+              <a class="navbar-brand" href="/"><img class="img-circle {% if page.title contains "Advertising Agency" %}pop animation{% endif %}"src="{{ "/img/insight-creative-logo.gif" | prepend: site.baseurl }}" alt="Insight Creative"></a>
             </div>
 
             <div class="collapse navbar-collapse {% if page.title contains "Advertising Agency" %}slideDown{% endif %}" id="navbar-collapse-1">
